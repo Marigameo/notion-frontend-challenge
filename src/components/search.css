@@ -8,3 +8,9 @@
 .searchWrapper {
   padding: 60px 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .search {
+    width: 80%;
+  }
+}

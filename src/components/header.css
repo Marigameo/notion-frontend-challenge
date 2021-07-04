@@ -50,9 +50,21 @@
 .active::after {
   content: "";
   width: 60px;
-  border-bottom: 2px solid #e16259;
+  border-bottom: 2px solid var(--text-orange);
   position: absolute;
   z-index: 1;
   top: 4rem;
   right: 17.8rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .active::after {
+    right: 8.8rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .active::after {
+    right: 12.4rem;
+  }
 }

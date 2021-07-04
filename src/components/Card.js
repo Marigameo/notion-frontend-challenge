@@ -6,7 +6,7 @@ export default function Card({ item }) {
         <div className="card">
             <p className="placeName">{item.CITY} - {item.STABBR}</p>
             <p className="collegeName">{item.INSTNM}</p>
-            <a className="link" href={`https://${item.INSTURL}`}>{item.INSTURL}</a>
+            <a className="link" target="_blank" rel="noreferrer" href={`https://${item.INSTURL}`}>{item.INSTURL}</a>
         </div>
     )
 }

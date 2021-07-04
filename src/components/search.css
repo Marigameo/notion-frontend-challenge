@@ -1,0 +1,11 @@
+.search {
+  padding: 12px;
+  border: 1px solid rgb(230, 224, 224);
+  color: rgb(182, 182, 182);
+  border-radius: 3px;
+  width: 30%;
+}
+
+.searchWrapper {
+  padding: 60px 0;
+}

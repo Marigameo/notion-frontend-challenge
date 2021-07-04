@@ -1,0 +1,37 @@
+:root {
+  --bg-white: #ffffff;
+  --black: #000000;
+  --text-grey: rgba(0, 0, 0, 0.6);
+  --text-orange: #e16259;
+}
+.card {
+  padding: 12px 16px;
+  background: var(--bg-white);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-bottom: 48px;
+  width: 282px;
+}
+
+.collegeName {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 135%;
+  color: var(--black);
+}
+
+.placeName,
+.link {
+  line-height: 150%;
+}
+
+.placeName {
+  font-size: 14px;
+  color: var(--text-grey);
+}
+
+.link {
+  color: var(--text-orange);
+  font-size: 15px;
+}
